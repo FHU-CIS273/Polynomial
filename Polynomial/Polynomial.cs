@@ -24,8 +24,11 @@ namespace Polynomial
     {
         private LinkedList<Term> terms;
 
+        // TODO
+        public int NumberOfTerms { get { return 0; } }
+
         public int Degree {
-            // TODO:
+            // TODO
             get
             {
                 int degree = 0;
@@ -52,7 +55,7 @@ namespace Polynomial
             terms.AddLast(term);
 
             // simplify
-            //Simplify();
+            Simplify();
         }
 
         // TODO
